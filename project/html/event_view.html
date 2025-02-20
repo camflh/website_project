@@ -1,0 +1,140 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    :root {
+      --columbia-blue: #c1e1f2ff;
+      --indigo-dye: #084b83ff;
+      --white: #ffffffff;
+      --jade: #00a676ff;
+      --redwood: #a76d60ff;
+    }
+  </style>
+ </head>
+ <body class="bg-[var(--columbia-blue)] text-black">
+  <div class="max-w-4xl mx-auto p-4">
+   <!-- Header -->
+   <div class="flex justify-between items-center bg-[var(--white)] p-4 shadow-md mb-4">
+    <div class="flex items-center">
+     <img alt="Logo" class="mr-4" height="50" src="../images/logo.png" width="50"/>
+     <h1 class="text-xl font-bold text-[var(--indigo-dye)]">
+      SMK MERDEKA BANDUNG
+     </h1>
+    </div>
+    <div class="flex flex-col items-center space-y-2">
+     <span class="text-lg text-[var(--indigo-dye)]">
+      Username
+     </span>
+     <a class="text-lg underline text-[var(--indigo-dye)] hover:text-[var(--jade)]" href="index.html">
+      Logout
+     </a>
+    </div>
+   </div>
+   <button class="bg-[var(--indigo-dye)] text-[var(--white)] px-4 py-2 rounded mb-4" onclick="location.href='main_page_admin.html'">
+    Back
+   </button>
+   <div class="bg-[var(--white)] p-4 rounded mb-4">
+    <div class="h-64 bg-[var(--columbia-blue)] flex items-center justify-center">
+     <img alt="Placeholder image" class="w-full h-full object-cover" src="../images/placeholder.jpg"/>
+    </div>
+    <div class="mt-4">
+     <div class="text-lg font-bold text-[var(--indigo-dye)]">
+      Title
+     </div>
+     <div class="text-sm text-[var(--indigo-dye)]">
+      Views: XXX Date Uploaded
+     </div>
+     <div class="text-sm text-[var(--indigo-dye)]">
+      Uploader: XXX
+     </div>
+     <div class="flex space-x-2 mt-2">
+      <span class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded-full">
+       OSIS
+      </span>
+      <span class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded-full">
+       Outdoor
+      </span>
+      <span class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded-full">
+       July
+      </span>
+      <span class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded-full">
+       2025
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="bg-[var(--white)] p-4 rounded mb-4">
+    <div class="text-lg font-bold text-[var(--indigo-dye)] mb-2">
+     XX Comments
+    </div>
+    <div class="mb-4">
+     <div class="text-sm font-bold text-[var(--indigo-dye)]">
+      Add Comment
+     </div>
+     <textarea class="w-full p-2 rounded mb-2 border border-[var(--indigo-dye)] focus:outline-none focus:ring-2 focus:ring-[var(--jade)]"></textarea>
+     <div class="flex justify-end space-x-2">
+      <button class="bg-[var(--white)] text-[var(--indigo-dye)] px-4 py-2 rounded">
+       Cancel
+      </button>
+      <button class="bg-[var(--white)] text-[var(--indigo-dye)] px-4 py-2 rounded">
+       Comment
+      </button>
+     </div>
+    </div>
+    <div class="space-y-4">
+     <div>
+      <div class="text-sm font-bold text-[var(--indigo-dye)]">
+       @User1
+      </div>
+      <div class="text-sm text-[var(--indigo-dye)]">
+       ****************
+      </div>
+      <button class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded mt-2">
+       Reply
+      </button>
+     </div>
+     <div class="ml-4">
+      <div class="text-sm font-bold text-[var(--indigo-dye)]">
+       @User2
+      </div>
+      <div class="text-sm text-[var(--indigo-dye)]">
+       ****************
+      </div>
+      <div class="ml-4">
+       <div class="text-sm font-bold text-[var(--indigo-dye)]">
+        @User3
+       </div>
+       <div class="text-sm text-[var(--indigo-dye)]">
+        ****************
+       </div>
+       <button class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded mt-2">
+        Reply
+       </button>
+      </div>
+     </div>
+     <div>
+      <div class="text-sm font-bold text-[var(--indigo-dye)]">
+       @Self
+      </div>
+      <div class="text-sm text-[var(--indigo-dye)]">
+       ****************
+      </div>
+      <div class="flex space-x-2 mt-2">
+       <button class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded">
+        Edit
+       </button>
+       <button class="bg-[var(--white)] text-[var(--indigo-dye)] px-2 py-1 rounded">
+        Delete
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="text-center py-4 text-sm text-black bg-[var(--columbia-blue)]">
+    Jl. Pahlawan No.54, Neglasari, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40124
+  </footer>
+ </body>
+</html>
