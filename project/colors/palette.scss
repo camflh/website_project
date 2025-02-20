@@ -1,18 +1,22 @@
 /* aye - https://coolors.co/c1e1f2-084b83-ffffff-00a676-a76d60 */
 
 /* CSS HEX */
---columbia-blue: #c1e1f2ff;
---indigo-dye: #084b83ff;
---white: #ffffffff;
---jade: #00a676ff;
---redwood: #a76d60ff;
+:root {
+  --columbia-blue: #c1e1f2ff;
+  --indigo-dye: #084b83ff;
+  --white: #ffffffff;
+  --jade: #00a676ff;
+  --redwood: #a76d60ff;
+}
 
 /* CSS HSL */
---columbia-blue: hsla(201, 65%, 85%, 1);
---indigo-dye: hsla(207, 88%, 27%, 1);
---white: hsla(0, 0%, 100%, 1);
---jade: hsla(163, 100%, 33%, 1);
---redwood: hsla(11, 29%, 52%, 1);
+:root {
+  --columbia-blue: hsla(201, 65%, 85%, 1);
+  --indigo-dye: hsla(207, 88%, 27%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --jade: hsla(163, 100%, 33%, 1);
+  --redwood: hsla(11, 29%, 52%, 1);
+}
 
 /* SCSS HEX */
 $columbia-blue: #c1e1f2ff;
