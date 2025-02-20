@@ -1,0 +1,70 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --columbia-blue: #c1e1f2ff;
+      --indigo-dye: #084b83ff;
+      --white: #ffffffff;
+      --jade: #00a676ff;
+      --redwood: #a76d60ff;
+    }
+  </style>
+ </head>
+ <body class="bg-[var(--columbia-blue)] flex flex-col min-h-screen">
+  <div class="flex-grow flex items-center justify-center">
+   <div class="bg-[var(--white)] p-8 rounded-lg w-full max-w-4xl">
+    <div class="flex justify-between items-center mb-8">
+     <button class="bg-[var(--indigo-dye)] text-[var(--white)] px-4 py-2 rounded hover:bg-[var(--jade)]" onclick="location.href='main_page.html'">
+      Back
+     </button>
+     <h1 class="text-[var(--indigo-dye)] text-4xl">
+      UPLOAD DOKUMENTASI
+     </h1>
+    </div>
+    <div class="flex flex-col md:flex-row gap-8">
+     <div class="flex-1">
+      <div class="mb-4">
+       <label class="text-[var(--indigo-dye)] text-lg block mb-2">
+        Title (required)
+       </label>
+       <input class="w-full p-2 bg-[var(--columbia-blue)] rounded" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="text-[var(--indigo-dye)] text-lg block mb-2">
+        Filter / Tags
+       </label>
+       <div class="flex flex-wrap gap-2">
+        <button class="bg-[var(--columbia-blue)] text-[var(--indigo-dye)] px-4 py-2 rounded hover:bg-[var(--jade)] hover:text-[var(--white)]">
+         OSIS
+        </button>
+        <button class="bg-[var(--columbia-blue)] text-[var(--indigo-dye)] px-4 py-2 rounded hover:bg-[var(--jade)] hover:text-[var(--white)]">
+         Outdoor
+        </button>
+        <button class="bg-[var(--columbia-blue)] text-[var(--indigo-dye)] px-4 py-2 rounded hover:bg-[var(--jade)] hover:text-[var(--white)]">
+         Create Tag
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="flex-1 flex flex-col items-center">
+      <div class="w-full h-64 bg-[var(--columbia-blue)] flex items-center justify-center rounded mb-4">
+       <img alt="Placeholder image" class="w-full h-full object-cover opacity-50" src="../images/placeholder.jpg"/>
+      </div>
+      <button class="bg-[var(--white)] text-[var(--indigo-dye)] px-4 py-2 rounded hover:bg-[var(--jade)] hover:text-[var(--white)]">
+       Choose File
+      </button>
+     </div>
+    </div>
+    <div class="flex justify-end mt-8">
+     <button class="bg-[var(--columbia-blue)] text-[var(--indigo-dye)] px-4 py-2 rounded hover:bg-[var(--jade)] hover:text-[var(--white)]">
+      Upload
+     </button>
+    </div>
+   </div>
+  </div>
+  <footer class="text-center py-4 text-sm text-black bg-[var(--columbia-blue)]">
+   Jl. Pahlawan No.54, Neglasari, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40124
+  </footer>
+ </body>
+</html>
