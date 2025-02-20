@@ -12,37 +12,60 @@
         }
     </style>
 </head>
-<body class="bg-[var(--columbia-blue)] flex items-center justify-center min-h-screen">
-    <div class="w-full max-w-xs">
-        <form class="bg-[var(--white)] shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            <div class="mb-4">
-                <a href="main_page_admin.html" class="bg-[var(--indigo-dye)] text-[var(--white)] py-2 px-4 rounded mb-4 inline-block">Back</a>
-                <h2 class="text-[var(--indigo-dye)] text-center text-xl mb-6">Create New Admin Account</h2>
-            </div>
-            <div class="mb-4">
-                <label class="block text-[var(--indigo-dye)] text-sm font-bold mb-2" for="full-name">
-                    Full Name Admin
-                </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="full-name" type="text" placeholder="">
-            </div>
-            <div class="mb-4">
-                <label class="block text-[var(--indigo-dye)] text-sm font-bold mb-2" for="username">
-                    Username Admin
-                </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="">
-            </div>
-            <div class="mb-6">
-                <label class="block text-[var(--indigo-dye)] text-sm font-bold mb-2" for="password">
-                    Password Admin
-                </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="">
-            </div>
-            <div class="flex items-center justify-center">
-                <button class="bg-[var(--jade)] text-[var(--white)] font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                    Create
-                </button>
-            </div>
-        </form>
+<body class="bg-[var(--columbia-blue)] flex flex-col min-h-screen">
+    <!-- Header -->
+    <div class="flex justify-between items-center bg-[var(--white)] p-4 shadow-md mb-4">
+        <div class="flex items-center">
+            <img alt="Logo" class="mr-4" height="50" src="../images/logo.png" width="50"/>
+            <h1 class="text-xl font-bold text-[var(--indigo-dye)]">
+                SMK MERDEKA BANDUNG
+            </h1>
+        </div>
+        <div class="flex flex-col items-center space-y-2">
+            <span class="text-lg text-[var(--indigo-dye)]">
+                Username
+            </span>
+            <a class="text-lg underline text-[var(--indigo-dye)] hover:text-[var(--jade)]" href="index.html">
+                Logout
+            </a>
+        </div>
     </div>
+    <div class="flex-grow flex items-center justify-center">
+        <div class="w-full max-w-xs">
+            <form class="bg-[var(--white)] shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <a href="main_page_admin.html" class="bg-[var(--indigo-dye)] text-[var(--white)] py-2 px-4 rounded mb-4 inline-block">Back</a>
+                    <h2 class="text-[var(--indigo-dye)] text-center text-xl mb-6">Create New Admin Account</h2>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-[var(--indigo-dye)] text-sm font-bold mb-2" for="full-name">
+                        Full Name Admin
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="full-name" type="text" placeholder="">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-[var(--indigo-dye)] text-sm font-bold mb-2" for="username">
+                        Username Admin
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-[var(--indigo-dye)] text-sm font-bold mb-2" for="password">
+                        Password Admin
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="">
+                </div>
+                <div class="flex items-center justify-center">
+                    <button class="bg-[var(--jade)] text-[var(--white)] font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Create
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center py-4 text-sm text-black bg-[var(--columbia-blue)]">
+        Jl. Pahlawan No.54, Neglasari, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40124
+    </footer>
 </body>
 </html>
